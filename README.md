@@ -1,5 +1,5 @@
 # OnlineQuiz-OOPS-Java-Project
 
-Commands:
+## Commands:
 javac -d . CSV/*.java javaProject/*.java
 java javaProject.Main
