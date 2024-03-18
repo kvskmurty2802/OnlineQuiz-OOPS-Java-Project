@@ -1,0 +1,65 @@
+                            Online Quiz Java Project 
+
+1. Admin Login     2. Student Login     3.Exit
+
+
+1.Admin Login :-
+      input:-
+         username;   --enter
+         password;   --enter
+        exit          login
+      login:-
+       classes:-
+         1. Add/Update Student     2. Add/Update Instructions
+         3. Add/Update Question    4.Logout
+           
+        1. Add/Update Student:-
+             s.no  | userid  | name  | password  | update  | delete
+            Add student :                           Back to panel :
+
+              Name          --enter
+              user id       --enter
+              password      --enter
+              s.no++        atm
+          register      home        back
+       
+        2. Add/Update Instructions:-
+              s.no  | Instruction  | operation(update)  | delete
+             Add instruction :                     Back to panel :
+       
+              Instruction    --enter  
+           Add         home        back 
+
+        3. Add/Update Question:-
+             s.no  | question  | option A  | option b  | option c  | option d  | correct answer  | update  | delete
+            Add question :                         Back to panel :
+            question:        --enter  
+            option A:        --enter  
+            option b:        --enter  
+            option c:        --enter  
+            option d:        --enter  
+            Answer : (select option from above)
+           Done        home         back
+
+
+2. Student Login :-
+     input:-
+         username;   --enter
+         password;   --enter
+        exit              login
+      login:-
+                     Instructions to students
+      All instructions given by  Admin
+              start test                logout
+      start test:-
+        .* select options from questions 
+                     submit
+      submit:-
+                                  Results
+                 name:=              ||        userid:=   
+      
+         1.Total no.of questions          --getter
+         2.no. questions attempted        --getter
+         3.no.of correct answers          --getter
+         4.no.of wrong answers            --getter
+                                  exit

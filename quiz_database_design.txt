@@ -1,0 +1,63 @@
+Follow This commands to create database for the project
+
+create database java;
+
+Admin :-
+    
+     create table Admin (id int not null auto_increment,user_name varchar(30),password varchar(30),primary key(id));
+
+     alter table admin auto_increment=101;
+
+     insert into Admin (user_name,password) values("Shathanaa","@shathanaa");
+
+     insert into Admin (user_name,password) values("Priyambada","@priyambada");
+
+     insert into Admin (user_name,password) values("Manipriya","@Manipriya");
+
+Student :-
+
+     create table student (id varchar(15),user_name varchar(30),password varchar(30),marks int,primary key(id));
+
+     insert into student values("S177","Someswar","*someswar",0);
+
+     insert into student values("S118","Krishna","*krishna",0);
+
+     insert into student values("S054","Manjeeth","*manjeeth",0);
+
+     insert into student values("S199","Chaitanya","*chaitanya",0);
+
+     delete from student where id = " ";
+
+Question :-
+
+     create table questions (sNo int not null auto_increment,question varchar(100) not null,option_A varchar(50),option_B varchar(50),option_C varchar(50),option_D varchar(50),answer varchar(50),primary key(sNo));
+alter table questions auto_increment = 1;
+     insert into questions(question,option_A,option_B,option_C,option_D,answer) values("JSP means","Java servlet pages","Java server pages","JqueryS pages","None","a");
+
+     insert into questions(question,option_A,option_B,option_C,option_D,answer) values("Which of the following is not a Java features?","Dynamic","Architecture Neutral","Use of pointers","Object-oriented","c");
+
+     insert into questions(question,option_A,option_B,option_C,option_D,answer) values("In which memory a String is stored, when we create a string using new operator?","Stack","String memory","Heap memory","Random storage space","c");
+ 
+     insert into questions(question,option_A,option_B,option_C,option_D,answer) values("Number of primitive data types in Java are?","6","7","8","9","c");
+
+Instruction :-
+
+     create table instructions (sNo int not null auto_increment,instruction varchar(50),primary key(sNo));
+
+     alter table instructions auto_increment = 1;
+
+     insert into instructions (instruction) values("Be Honest");
+     insert into instructions (instruction) values("Manage your time");
+     insert into instructions (instruction) values("Read the questions carefully");
+     insert into instructions (instruction) values("Dont copy!");
+
+
+to change row values :-
+     
+     UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+
+to search via substring :-
+
+     SELECT Username FROM USERS WHERE Username like '%A%';
+
+
