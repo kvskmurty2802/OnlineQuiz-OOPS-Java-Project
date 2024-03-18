@@ -37,5 +37,5 @@ This is a command-line based online quiz project implemented in Java using objec
 
 1st command will create another individual folders for class files after compilation.
 
-2nd will run the Main class file.
+2nd command will run the Main class file.
 
