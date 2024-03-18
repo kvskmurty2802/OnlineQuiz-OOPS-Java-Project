@@ -27,15 +27,17 @@ This is a command-line based online quiz project implemented in Java using objec
 
 ## Commands to run the project:
 
+while running the project , current directory should be './src' then run the below commands to run this project.
+
 ### To compile the project, use the following command:
 
-- javac -d . CSV/*.java javaProject/*.java
+- javac -d ./classes CSV/*.java javaProject/*.java
 
 #### To run the project, use the following command:
 
-- java javaProject.Main
+- java -cp "mysql-connector-j-8.3.0.jar;./classes" javaProject.Main  
 
-1st command will create another individual folders for class files after compilation.
+1st command will compile all java files in the project and it will store that class files in classes folder.
 
 2nd command will run the Main class file.
 

@@ -2,7 +2,7 @@ Follow This commands to create database for the project
 
 create database java;
 
-Admin :-
+Create the Admin table :-
     
      create table Admin (id int not null auto_increment,user_name varchar(30),password varchar(30),primary key(id));
 
@@ -14,7 +14,7 @@ Admin :-
 
      insert into Admin (user_name,password) values("Manipriya","@Manipriya");
 
-Student :-
+Create the student table :-
 
      create table student (id varchar(15),user_name varchar(30),password varchar(30),marks int,primary key(id));
 
@@ -28,7 +28,7 @@ Student :-
 
      delete from student where id = " ";
 
-Question :-
+Create the questions table :-
 
      create table questions (sNo int not null auto_increment,question varchar(100) not null,option_A varchar(50),option_B varchar(50),option_C varchar(50),option_D varchar(50),answer varchar(50),primary key(sNo));
 alter table questions auto_increment = 1;
@@ -40,7 +40,7 @@ alter table questions auto_increment = 1;
  
      insert into questions(question,option_A,option_B,option_C,option_D,answer) values("Number of primitive data types in Java are?","6","7","8","9","c");
 
-Instruction :-
+Create the instructions table :-
 
      create table instructions (sNo int not null auto_increment,instruction varchar(50),primary key(sNo));
 
